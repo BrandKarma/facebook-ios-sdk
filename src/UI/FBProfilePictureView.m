@@ -32,7 +32,7 @@
 
 - (void)initialize;
 
-end
+@end
 
 @implementation FBProfilePictureView
 
