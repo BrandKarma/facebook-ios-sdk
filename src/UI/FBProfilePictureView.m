@@ -31,10 +31,8 @@
 @property (retain, nonatomic) FBURLConnection *connection;
 
 - (void)initialize;
-- (void)refreshImage:(BOOL)forceRefresh;
-- (void)ensureImageViewContentMode;
 
-@end
+end
 
 @implementation FBProfilePictureView
 
