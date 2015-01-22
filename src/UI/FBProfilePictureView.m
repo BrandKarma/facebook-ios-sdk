@@ -29,7 +29,6 @@
 @property (copy, nonatomic) NSDictionary *currentImageQueryParams;
 
 @property (retain, nonatomic) FBURLConnection *connection;
-@property (retain, nonatomic) UIImageView *imageView;
 
 - (void)initialize;
 - (void)refreshImage:(BOOL)forceRefresh;

@@ -49,6 +49,7 @@ typedef NS_ENUM(NSUInteger, FBProfilePictureCropping) {
  The Facebook ID of the user, place or object for which a picture should be fetched and displayed.
  */
 @property (copy, nonatomic) NSString *profileID;
+@property (retain, nonatomic) UIImageView *imageView;
 
 /*!
  @abstract
