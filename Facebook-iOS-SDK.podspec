@@ -23,8 +23,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "6.0"
 
-  s.source       = { :git => "https://github.com/facebook/facebook-ios-sdk.git",
-                     :tag => "sdk-version-3.22.0"
+  s.source       = { :git => "https://github.com/BrandKarma/facebook-ios-sdk.git"
                     }
 
   s.source_files  =  "src/**/*.{h,m}"
